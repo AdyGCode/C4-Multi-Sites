@@ -13,7 +13,7 @@ Structure contains:
 }%%
 flowchart LR
     A[Account Root] --> B[assets]
-    A --> AI[index.html]
+    A --> AI[\index.html/]
     subgraph Account Root asset folders
     B --> BA[css]
     B --> BB[downloads]
@@ -27,7 +27,7 @@ flowchart LR
     D -.- DA[Subject 1 AT2 Part 2 Folders and Files]
     A --> E[sub1-AT3]
     subgraph Cluster 1 AT3 folder
-    E --> EI[index.html]
+    E --> EI[\index.html/]
     E --> EZ[assets]
     EZ --> EA[css]
     EZ --> EB[downloads]
@@ -36,4 +36,6 @@ flowchart LR
     EZ --> EE[media]
     end
     A --> F[sub2-AT1]
+    F -.- FA[Subject 1 AT2 Part 2 Folders and Files]
+
 ```

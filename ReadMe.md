@@ -8,7 +8,7 @@ Structure contains:
 ```mermaid
 %%{
   initialize: {
-    "theme" : "dark"
+    "theme" : "base"
   }
 }%%
 

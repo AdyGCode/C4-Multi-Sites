@@ -1,17 +1,16 @@
 # Basic Dummy Site Page
 
-This repository contains a basic "home page" and folder structure for 
-use in Certificate III and Certificate IV studies.
+This repository contains a basic "home page" and folder structure for use in Certificate III and Certificate IV studies.
 
 Structure contains:
 
 ```mermaid
 %%{
   initialize: {
-    "theme" : "neutral"
+    'theme' : 'neutral',
+     'flowchart': { 'curve': 'stepBefore' }
   }
 }%%
-
 flowchart LR
     A[Account Root] --> B[assets]
     A --> AI[index.html]

@@ -39,3 +39,13 @@ flowchart LR
     F -.- FA[Subject 1 AT2 Part 2 Folders and Files]
 
 ```
+
+Rename the folders as required.
+
+For example:
+
+Rename `sub1-AT1-PT1` to `DLD-Assessment1` or to `DLD-ToyShop`.
+
+Make sure the links in `index.html` are also renamed appropriately.
+
+If you wish to link an assessment back to this home page use the URL given to you for your account.
